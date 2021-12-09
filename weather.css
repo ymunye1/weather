@@ -1,5 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+.container{
+    padding: 20px 50px;
+}
+
 .icon{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
     background-color: blue;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    background-color:  yellow;
+}
+#Search {
+    height: 40px;
+    width: 150px;
+
 }
