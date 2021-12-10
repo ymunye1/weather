@@ -16,7 +16,7 @@ fetch(requestURL)
     const iconId = JSON.stringify(data.weather[0]['icon']).replaceAll('"','')
     const sunrise =  new Date(data.sys.sunrise * 1000).toLocaleTimeString();
 
-    const pic = `http://openweathermap.org/img/wn/${iconId}@2x.png`
+    const pic = `https://openweathermap.org/img/wn/${iconId}@2x.png`
       
     console.log(data.dt);
       var newHumidity = data.main.humidity;
