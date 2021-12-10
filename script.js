@@ -7,7 +7,7 @@ var humidity = document.querySelector('.humidity');
 var Search = document.querySelector('#Search');
 var key = 'fb9846360233e1bbeb23ed399c5b9e06';
 var city = 'Atlanta';
-var requestURL= `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${key}`
+var requestURL= `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${key}`
 
 fetch(requestURL)
   .then(response => response.json())
@@ -42,7 +42,7 @@ fetch(requestURL)
     city = citySearch; 
     console.log('hey');
     
-    var requestURL= `http://api.openweathermap.org/data/2.5/forecast?q=${city}&units=imperial&appid=${key}`
+    var requestURL= `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=imperial&appid=${key}`
     fetch(requestURL)
     .then(response => response.json())
     .then(data => {
@@ -52,7 +52,7 @@ fetch(requestURL)
       const iconId = data.list[0].weather[0].icon;
       const sunrise =  new Date(data.city.sunrise * 1000).toLocaleTimeString();
   
-      const pic = `http://openweathermap.org/img/wn/${iconId}@2x.png`
+      const pic = `https://openweathermap.org/img/wn/${iconId}@2x.png`
 
       var newHumidity = data.list[0].main.humidity; 
       var newTemp = data.list[0].main.temp ;
