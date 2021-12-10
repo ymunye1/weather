@@ -8,23 +8,58 @@
     padding: 20px 50px;
 }
 
-.icon{
+.icon, .icon2, .icon3, .icon4, .icon5, .icon6{
     height: 80px;
     width: 80px;
     justify-content: center;
     align-items: center;
     text-align: center;
     display: flex;
+
     background-color: blue;
 }
 
-.card {
+.card, .card2, .card3, .card4, .card5, .card6{
     height: 300px;
+    flex: row;
     width: 300px;
+    border-radius: 10px;
     background-color:  yellow;
 }
-#Search {
-    height: 40px;
-    width: 150px;
 
+ .card2, .card3, .card4, .card5, .card6{
+    height: 300px;
+    flex: row;
+    margin: 8px;
+    float: right;
+    width: 260px;
+    border-radius: 10px;
+    background-color:  yellow;
+}
+
+#Search {
+    height: 30px;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
+}
+
+.sec-container{
+    background-color: rgba(24, 24, 27, 0.6);
+    border-radius: 5px;
+}
+
+.cityName, .temp, .wind, .humidity, .date{
+    padding: 10px;
+}
+
+#Search {
+    background-color: ;
+    border: ;
+    border-radius: 10px;
+    
+}
+.text{
+    font-size: 20px;
 }
