@@ -1,67 +1,110 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0%;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
 }
 
-.container{
-    padding: 20px 50px;
+body {
+  background-image: url(Assets/bg_weather.jpg);
+  background-repeat: round;
 }
 
-.icon, .icon2, .icon3, .icon4, .icon5, .icon6{
-    height: 80px;
-    width: 80px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-
-    background-color: blue;
+.container {
+  padding: 20px 50px;
 }
 
-.card, .card2, .card3, .card4, .card5, .card6{
-    height: 300px;
-    flex: row;
-    width: 300px;
-    border-radius: 10px;
-    background-color:  yellow;
+.icon,
+.icon2,
+.icon3,
+.icon4,
+.icon5,
+.icon6 {
+  height: 80px;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+
+  background-color: blue;
 }
 
- .card2, .card3, .card4, .card5, .card6{
-    height: 300px;
-    flex: row;
-    margin: 8px;
-    float: right;
-    width: 260px;
-    border-radius: 10px;
-    background-color:  yellow;
+.card,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  height: 300px;
+  flex: row;
+  width: 300px;
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  height: 300px;
+  flex: row;
+  margin: 8px;
+  float: right;
+  width: 260px;
+  border-radius: 10px;
+  background-color: yellow;
 }
 
 #Search {
-    height: 30px;
-    width: 150px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-
+  height: 30px;
+  width: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
 }
 
-.sec-container{
-    background-color: rgba(24, 24, 27, 0.6);
-    border-radius: 5px;
+.sec-container {
+  background-color: rgba(24, 24, 27, 0.6);
+  border-radius: 5px;
 }
 
-.cityName, .temp, .wind, .humidity, .date, .cityName2, .temp2, .wind2, .humidity2, .date2,
-.cityName3, .temp3, .wind3, .humidity3, .date3, .cityName4, .temp4, .wind4, .humidity4, .date4,
-.cityName5, .temp5, .wind5, .humidity5, .date5 .cityName6, .temp6, .wind6, .humidity6, .date6{
-    padding: 10px;
+.cityName,
+.temp,
+.wind,
+.humidity,
+.date,
+.cityName2,
+.temp2,
+.wind2,
+.humidity2,
+.date2,
+.cityName3,
+.temp3,
+.wind3,
+.humidity3,
+.date3,
+.cityName4,
+.temp4,
+.wind4,
+.humidity4,
+.date4,
+.cityName5,
+.temp5,
+.wind5,
+.humidity5,
+.date5 .cityName6,
+.temp6,
+.wind6,
+.humidity6,
+.date6 {
+  padding: 10px;
 }
 
 #Search {
-    background-color: ;
-    border: ;
-    border-radius: 10px;
-    
+  background-color: ;
+  border: ;
+  border-radius: 10px;
 }
-.text{
-    font-size: 20px;
+.text {
+  font-size: 20px;
 }
