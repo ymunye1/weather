@@ -17,6 +17,7 @@ fetch(requestURL)
 
     const pic = `https://openweathermap.org/img/wn/${iconId}@2x.png`;
 
+    console.log(iconId)
     console.log(data.dt);
     var newHumidity = data.main.humidity;
     var newDate = new Date(data.dt * 1000).toDateString();

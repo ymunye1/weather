@@ -29,12 +29,9 @@ body {
   background-color: blue;
 }
 
-.card,
-.card2,
-.card3,
-.card4,
-.card5,
-.card6 {
+.card
+ {
+  text-align: center;
   height: 300px;
   flex: row;
   width: 300px;
@@ -42,16 +39,22 @@ body {
   background-color: yellow;
 }
 
+h1{
+  text-align: center;
+  color: cornsilk;
+}
+
 .card2,
 .card3,
 .card4,
 .card5,
 .card6 {
+  text-align: center;
   height: 300px;
   flex: row;
   margin: 8px;
   float: right;
-  width: 260px;
+  width: 300px;
   border-radius: 10px;
   background-color: yellow;
 }
@@ -92,7 +95,8 @@ body {
 .temp5,
 .wind5,
 .humidity5,
-.date5 .cityName6,
+.date5, 
+.cityName6,
 .temp6,
 .wind6,
 .humidity6,
